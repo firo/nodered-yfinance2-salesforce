@@ -1,6 +1,6 @@
 # nodered-yfinance2-salesforce
 
-- crea nuova immagine
+- crea nuova immagine da Dockerfile
 - crea container
 - modifica settings.js dentro /data
 
