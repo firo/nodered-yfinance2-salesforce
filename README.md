@@ -1,7 +1,7 @@
 # nodered-yfinance2-salesforce
 
-- crea nuova immagine da Dockerfile
-- crea container
+- crea nuova immagine da Dockerfile "docker build -t img-nodered-yfinance2-salesforce ."
+- crea container "docker run -p 1880:1880 -v node_red_data:/data --name nodered-yfinance2-salesforce img-nodered-yfinance2-salesforce-img"
 - modifica settings.js dentro /data
 
 ```javascript
